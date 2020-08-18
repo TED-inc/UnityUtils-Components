@@ -1,8 +1,7 @@
 ﻿using System;
 using UnityEngine;
-using TEDinc.Utils.Components;
 
-namespace TEDinc.Utils.NonMonobehEvents
+namespace TEDinc.Utils.Components.Events
 {
     public class NonMonobehEvents : MonoBehaviour, IInitable
     {
@@ -13,7 +12,7 @@ namespace TEDinc.Utils.NonMonobehEvents
         public static Action OnFixedUpdate;
         public static Action OnMonoDestroy;
 
-        private static NonMonobehEvents instance;
+        public static NonMonobehEvents instance;
 
         public void Init()
         {

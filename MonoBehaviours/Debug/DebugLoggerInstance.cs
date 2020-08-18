@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 namespace TEDinc.Utils.Components.Debug
 {
-    public class DebugLoggerInstance : MonoBehaviour, IInitable
+    public class DebugLoggerInstance : DebugBase, IInitable
     {
         [SerializeField]
         private Text _label;
