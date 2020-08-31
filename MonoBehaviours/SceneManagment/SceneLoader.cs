@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿#pragma warning disable 0649 //dissable unnusign warnings
+using UnityEngine;
 using UnityEngine.SceneManagement;
 using System;
 #if UNITY_EDITOR
