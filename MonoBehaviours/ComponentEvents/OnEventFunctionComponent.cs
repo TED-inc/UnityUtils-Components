@@ -1,4 +1,4 @@
-﻿#pragma warning disable 0649 //dissable unnusign warnings
+﻿#pragma warning disable 0649 //disable unnusign warnings
 using System;
 using UnityEngine;
 using UnityEngine.Events;
